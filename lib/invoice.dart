@@ -44,8 +44,7 @@ class Invoice extends StatelessWidget {
                 children: [
                   Text('${proDetails.title}'),
                   Text('Number of order : ${orderNo}'),
-                  Text('Net bill: ${proDetails.price * orderNo
-                  }')
+                  Text('Net bill: ${proDetails.price * orderNo}')
                 ],
               ),
             )
